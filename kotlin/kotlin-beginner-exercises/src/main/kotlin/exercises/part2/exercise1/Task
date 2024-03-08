@@ -1,0 +1,18 @@
+Exercise: Basic Zoo Management System
+
+Objective:
+Create a class hierarchy to represent animals in a zoo. You will create a base class named Animal and two derived classes named Bird and Mammal. Demonstrate the use of inheritance and how an overridden method can provide specific behavior for each subclass.
+Requirements:
+
+Define a base class Animal with the following:
+    Properties: name (String) and age (Int).
+    A constructor that takes name and age and initializes the respective properties.
+    A method makeSound() that prints a generic sound.
+
+Define a derived class Bird from Animal with the following:
+    Override the makeSound() method to print a sound specific to birds (e.g., "Chirp").
+
+Define another derived class Mammal from Animal with the following:
+    Override the makeSound() method to print a sound specific to mammals (e.g., "Roar").
+
+In the main function, create instances of Bird and Mammal, and call the makeSound method on each to demonstrate polymorphism.

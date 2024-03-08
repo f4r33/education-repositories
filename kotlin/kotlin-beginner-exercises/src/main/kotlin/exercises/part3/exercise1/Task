@@ -1,0 +1,5 @@
+Exercise 1: Classes and Backing Fields
+
+Objective: Design a Product class representing an item in a store.
+The class should include properties for name, price, and discount. Use a private backing field for price to ensure it's always positive, and discount should not exceed 50%.
+Include a method finalPrice() to calculate the price after the discount.

@@ -1,0 +1,9 @@
+Exercise 3: Dynamic Museum Exhibit Display
+
+Objective: You are tasked with creating a system for a museum exhibit display. The exhibit has various items: Painting, Sculpture, and Artifact. Each class has its unique properties and methods.
+Your goal is to implement a function that takes any exhibit item and displays detailed information about it, handling the item appropriately based on its type.
+If the type is unrecognized, it should print an error message.
+
+    Define the base class ExhibitItem and derived classes for each type of item.
+    Implement a displayItemDetails function that checks the type of the item and casts it to its specific type to access and display its properties.
+    Demonstrate the function with instances of each item type.

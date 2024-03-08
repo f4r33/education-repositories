@@ -1,0 +1,31 @@
+Exercise 4: Generic Data Processor
+
+Objective:
+Design and implement a generic data processing system that applies a specific operation to a list of items.
+The system will utilize Kotlin generics to work with various data types and functional programming concepts to apply operations.
+This exercise aims to demonstrate the versatility of generics for creating flexible software components and the power of higher-order functions in Kotlin.
+Background:
+
+A common requirement in software development is to process collections of data items (e.g., transform, filter, aggregate).
+Kotlin's support for generics and higher-order functions makes it straightforward to create a flexible and reusable data processing system.
+
+Requirements:
+
+Generic Data Processor Class: Create a class named DataProcessor<T> that can process items of any type T. The class should provide a method to apply a given operation (a function) to each item in a list and return the results in a new list.
+
+Operations: Define operations as higher-order functions that can be passed to the DataProcessor. These operations could be anything from transforming data, filtering items based on a condition, or even aggregating data.
+
+Custom Data Types: Although not required, consider creating a few custom data types to demonstrate how the DataProcessor can handle different kinds of data. For example, you could define data classes for Person (with properties like name and age) and Product (with properties like id, name, and price).
+
+Demonstration in Main: In the main function, instantiate DataProcessor with different data types and demonstrate various operations, such as transforming a list of integers, filtering a list of Person objects based on age, and converting a list of Product objects to a list of their names.
+
+Task:
+
+Without starting code provided, design the DataProcessor<T> class to allow for generic data processing. Implement methods within this class to apply operations on lists of type T and return the results.
+Define several operations as higher-order functions that can be passed to instances of DataProcessor. These could include lambda expressions for simple transformations or filters.
+Use custom data types or Kotlin primitives to demonstrate the flexibility and utility of the DataProcessor class. Show how the same class can be used to process different types of data by simply changing the type parameter and the operations applied.
+
+Considerations:
+
+Think about how to handle errors or exceptions that might occur during data processing. Should the DataProcessor class include error handling, or should it be the responsibility of the operations passed to it?
+Consider the efficiency of your implementations, especially when working with large collections of data. Are there ways to optimize the processing steps to minimize overhead or improve performance?

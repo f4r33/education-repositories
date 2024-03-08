@@ -1,0 +1,5 @@
+Exercise 4: Library Management System
+
+Objective: Develop a simplified library management system that handles books and their borrowing status.
+The system should be capable of adding books, updating their borrowing status, and displaying all books in the library.
+This exercise will use data classes for book information, and collections to manage books

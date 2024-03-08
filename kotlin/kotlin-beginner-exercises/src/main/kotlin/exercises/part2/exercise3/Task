@@ -1,0 +1,15 @@
+Exercise: Generic Item Container
+
+Objective:
+Implement a generic container class that can store items of any type, including primitives, objects, and custom data types. You will create a generic class named ItemContainer and demonstrate its usage with different data types, highlighting the power and flexibility of generics in Kotlin.
+Requirements:
+
+Generic Class: Create a generic class ItemContainer<T> where T is the type of item it can hold. The class should have:
+    A private list to hold items of type T.
+    Methods to add an item to the container and retrieve an item by index.
+
+Custom Classes: Define at least two custom classes to use with your generic container:
+    Book with properties title (String) and author (String).
+    Electronic with properties name (String) and category (String).
+
+Demonstration: In the main function, create instances of ItemContainer for different data types (e.g., String, Book, Electronic) and demonstrate adding and retrieving items.

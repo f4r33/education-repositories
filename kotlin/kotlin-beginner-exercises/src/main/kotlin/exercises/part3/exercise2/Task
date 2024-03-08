@@ -1,0 +1,4 @@
+Exercise 2: Interface with Default Implementations and Polymorphism
+
+Objective: Define an interface Transport with a default implementation for a method startEngine() that prints "Engine started".
+Add methods drive() and stop(), which are abstract. Implement this interface in classes Car and Bicycle. For Bicycle, override startEngine to print "No engine to start".

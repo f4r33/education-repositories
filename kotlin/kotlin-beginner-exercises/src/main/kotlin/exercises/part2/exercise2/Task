@@ -1,0 +1,22 @@
+Exercise: Vehicle Management System
+
+Objective:
+Design a simple vehicle management system to demonstrate inheritance and polymorphism, and use interfaces to add specific capabilities to certain vehicles. This exercise involves creating a base class for vehicles, subclassing it for different types of vehicles, and using interfaces to represent capabilities like flying and amphibious operations.
+Requirements:
+
+Base Class: Define a base class Vehicle with the following:
+    Properties: make (String) and model (String).
+    A constructor that initializes these properties.
+    A method displayInfo() that prints out the make and model.
+
+Derived Classes: Create three derived classes from Vehicle: Car, Boat, and AmphibiousVehicle. Each class should override the displayInfo() method to include specific information relevant to the vehicle type.
+
+Interfaces: Define two interfaces:
+    Flyable with a method fly() that indicates the vehicle can fly.
+    Swimmable with a method swim() that indicates the vehicle can swim.
+
+Special Functionality:
+    Make Boat and AmphibiousVehicle implement Swimmable.
+    Create a new class Plane that extends Vehicle and implements Flyable.
+
+In the main function, instantiate each vehicle type and demonstrate their specific behaviors and capabilities by calling the appropriate methods.
